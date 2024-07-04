@@ -1,0 +1,14 @@
+database:
+  host: "localhost"
+  port: 5432
+  user: "admin"
+  password: "secret"
+server:
+  host: "0.0.0.0"
+  port: 8080
+logging:
+  level: "INFO"
+  handlers:
+    - "console"
+    - "file"
+  file: {path: "/var/log/app.log", max_size: "10MB", backup_count: 3, "store_all": true}
