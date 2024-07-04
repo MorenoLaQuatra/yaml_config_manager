@@ -1,6 +1,8 @@
-# yaml_config_manager
+# YAML Config Manager
 
-yaml_config_manager is a Python package to manage YAML configurations with command line overrides. This package allows you to load a configuration from a YAML file and override or add parameters using command line arguments.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+`yaml_config_manager` is a Python package to manage YAML configurations with command line overrides. This package allows you to load a configuration from a YAML file and override or add parameters using command line arguments.
 
 ## Installation
 
